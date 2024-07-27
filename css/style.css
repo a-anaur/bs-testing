@@ -1,0 +1,296 @@
+:root {
+  --color1: rgb(51, 182, 138);
+  --color2: rgb(199, 34, 199);
+}
+
+header,
+footer,
+section {
+  padding: 100px 0;
+}
+
+header {
+  padding: 200px 0;
+}
+
+h1 {
+  color: gold;
+}
+
+header {
+  background-image: url(../img/pattern.png),
+    linear-gradient(to right, #2abda5, #00a4bc, #0086d0, #0061cd, #5427a4);
+  background-size: contain;
+}
+
+.itd_play {
+  background-color: var(--color1);
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: 1px solid gold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  margin: 30px auto 30px;
+  transition: all 0.2s ease;
+}
+
+.itd_play:hover {
+  background-color: var(--color2);
+}
+
+.itd_triangle {
+  width: 0px;
+  height: 0px;
+  border-style: solid;
+  border-width: 15px 0 15px 30px;
+  border-color: transparent transparent transparent #d7ff41;
+  transform: rotate(0deg);
+  margin-left: 7px;
+}
+
+.btn-itd {
+  border: 1px solid gold;
+  background-color: blueviolet;
+  color: gold;
+  cursor: pointer;
+  display: block;
+  margin: 20px auto;
+
+  max-width: 200px;
+}
+
+.btn-itd:hover {
+  background-color: coral;
+  color: #053f82;
+  border: 2px solid black;
+}
+
+.modal-title {
+  color: #053f82;
+}
+
+.about, .program, .author, .buy {
+  background-color: antiquewhite;
+}
+
+.forwhom, .learning, .feedback {
+    background-color:rgb(192, 230, 217)
+}
+
+.about h1, .program h1, .author h1, .buy h1 {
+  color: var(--color1);
+}
+
+.about .circle {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: 2px solid black;
+  display: block;
+  margin: 30px auto;
+  background-color: rgb(187, 222, 210);
+}
+
+.line {
+  width: 100px;
+  height: 2px;
+  background-color: var(--color2);
+  margin: 15px auto;
+}
+.forwhom h1, .learning h1, .feedback h1 {
+    color: var(--color2);
+}
+
+.text-place {
+    width: 630px;
+    height: auto;
+    padding: 30px;
+    border: 2px solid var(--color2);
+}
+
+.learning p {
+    border: 2px solid var(--color2);
+    padding: 20px;
+}
+
+.learning img {
+    width: 50%;
+    
+}
+
+.learn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.author img {
+    width: 50%;
+    margin-left: 30px;
+}
+
+.auth {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    
+}
+
+.author {
+    padding-bottom: 0;
+}
+
+.feedback img {
+    border-radius: 50%;
+    border: 2px solid gold;
+}
+
+.feedback p {
+    max-width: 500px;
+    display: block;
+    margin: auto auto;
+    
+}
+
+footer {
+    padding: 30px 0;
+}
+
+.page {
+    background-color: black;
+    color: white;
+    padding: 50px;
+}
+
+.navbar {
+    background-color: #053f82;
+    color: yellow;
+}
+
+.dis {
+    margin-left: 400px;
+}
+
+.nav {
+    margin-right: 500px;
+}
+
+.navbar-brand img {
+    width: 50px;
+}
+
+.page p {
+    max-width: 400px;
+}
+
+.js-icon {
+    width: 600px;
+    background-color:#2abda5;
+    padding: 50px;
+}
+
+p i {
+    color: gold;
+}
+
+.page-text {
+    
+    background: #0086d0;
+    padding: 60px;
+}
+
+.order {
+    margin-left: 400px;
+    width: auto;
+}
+
+.features {
+    background-color: #053f82;
+    color: aliceblue;
+    padding: 30px;
+}
+
+.circle-2 {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 2px solid gold;
+    display: flex;
+    padding-top: 12px;
+    
+}
+.circle-2 p {
+    margin: 0 auto;
+}
+
+.element {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.content {
+    max-width: 600px;
+    display: block;
+    margin: 0 auto;
+}
+
+.element p {
+    max-width: 300px;
+}
+
+.acordio, .acordio-2 {
+    background-color: green;
+    color: burlywood;
+    padding: 30px;
+}
+
+.module, .super {
+    padding: 20px;
+    
+}
+
+.module h4, .module p {
+    color: white;
+}
+
+.acordio-2 {
+    background-color: indigo;
+}
+
+.module i {
+    color: red;
+    font-size: 20px;
+}
+
+.accordion-item {
+    background-color: aquamarine;
+}
+
+.accordion-body {
+    color:#053f82;
+}
+
+.accordion-button {
+    background-color: gold;
+}
+
+.super {
+    background-color: darkslategray;
+    color:aquamarine;
+}
+
+footer p {
+    color: gold;
+    font-size: 12px;
+} 
+
+#footer {
+    background-color:green;
+}
